@@ -1,0 +1,88 @@
+1. Comment
+# This is a comment
+print("Welcome to Python")
+# → single-line comment
+Triple quotes """ """ / ''' ''' → multi-line text/docstring.
+
+2. Swapping Variables
+
+i.Using third variable
+temp = a
+a = b
+b = temp
+
+ii.Without third variable
+a = a + b
+b = a - b
+a = a - b
+
+iii.Pythonic
+a, b = b, a
+
+3. Variables
+
+Variable = value/object ni refer chese name.
+Example:
+age = 22
+name = "Harish"
+percentage = 95.5
+
+4. Data Types
+
+str → text
+int → whole numbers
+float → decimal numbers
+complex → real + imaginary
+list → ordered, mutable collection
+tuple → ordered, immutable collection
+range → sequence of numbers
+bool → True / False
+NoneType → None
+
+5. List:List uses [], is mutable, indexed and allows duplicates.
+
+Example:cart = ["Shoes", "Shirt", "Watch"]
+print(cart[0])
+
+6. Tuple:Tuple uses (), is immutable, ordered and indexed.
+
+example:colors = ("Red", "Blue", "Green")
+print(colors[1])
+
+Single-item tuple:student = ("Raju",)
+
+7. List vs Tuple
+List        Tuple
+[]          ()
+Mutable     Immutable
+Can modify  Cannot modify
+Slower       Faster
+
+8. Range
+ex 1:range(5)
+# 0 1 2 3 4
+
+Ex2:range(2, 8)
+# 2 3 4 5 6 7
+
+Ex3:range(0, 10, 2)
+# 0 2 4 6 8
+
+Syntax:range(start, stop, step)
+
+9. type():Variable data type check cheyyadaniki:
+
+Example:
+name = "Raju"
+age = 23
+marks = 97.5
+print(type(name))
+print(type(age))
+print(type(marks))
+
+Output:
+
+str
+int
+float
+
