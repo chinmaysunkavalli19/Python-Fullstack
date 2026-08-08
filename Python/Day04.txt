@@ -1,0 +1,172 @@
+1. SET
+.Set stores unique elements.
+.Duplicates are automatically removed.
+.Unordered, mutable.
+.{} is not an empty set.
+.Empty set → set()
+.Set elements must be immutable.
+
+Example:
+student_ids = {101, 102, 103, 101}
+print(student_ids)
+
+Output:
+{101, 102, 103}
+
+Add element:
+fruits = {"Apple", "Mango"}
+fruits.add("Orange")
+
+2. DICTIONARY
+.Stores data as key-value pairs.
+.Keys must be unique.
+.Values can be duplicated.
+.Mutable.
+
+Example:
+student = {
+    "name": "Raju",
+    "age": 21,
+    "city": "Hyderabad"
+}
+
+Access:
+print(student["name"])
+print(student["age"])
+
+If key doesn't exist:
+student["marks"]
+→ KeyError
+
+Safer method:
+student.get("marks")
+→ None
+
+3. BOOLEAN
+Boolean has only:
+True
+False
+
+Comparison operators return Boolean:
+Example:
+print(10 == 10)   # True
+print(10 > 5)     # True
+print(10 < 5)     # False
+
+4. NONE
+None means absence of a value / no value.
+
+Example:
+payment_status = None
+print(payment_status)
+
+Output:
+None
+Type:
+type(None)
+→ NoneType
+
+5. TYPE CASTING
+
+Type casting = converting one data type into another.
+
+Main functions:
+int()
+float()
+str()
+bool()
+list()
+tuple()
+set()
+dict()
+
+1.Implicit Type Casting:Python automatically converts the type.
+Example:
+a = 10
+b = 12.5
+print(a + b)
+
+Output:
+22.5
+#10 is automatically converted to 10.0.
+
+Also:
+True = 1
+False = 0
+
+2.Explicit Type Casting:Programmer manually converts the type.
+int()
+float()
+str()
+bool()
+list()
+tuple()
+set()
+dict()
+
+Examples:
+1.int
+a = 10
+float(a)   # 10.0
+str(a)     # '10'
+bool(a)    # True
+list(10), tuple(10), set(10), dict(10) → Error because int is not iterable.
+
+2.float
+a = 10.5
+int(a)     # 10
+str(a)     # '10.5'
+bool(a)    # True
+int() removes the decimal part; it does not round.
+
+3.string
+x = "10"
+int(x)     # 10
+float(x)   # 10.0
+bool(x)    # True
+list("Python")
+→ ['P','y','t','h','o','n']
+tuple("Python")
+set("Python")
+
+4.list / tuple / set
+numbers = [10, 20, 30]
+tuple(numbers)   # (10, 20, 30)
+set(numbers)     # {10, 20, 30}
+numbers = (10, 20, 30)
+
+list(numbers)    # [10, 20, 30]
+
+5.Dictionary → List/Tuple/Set
+Dictionary conversion takes keys:
+d = {1: 1, 2: 4, 3: 9}
+list(d)    # [1, 2, 3]
+tuple(d)   # (1, 2, 3)
+set(d)     # {1, 2, 3}
+
+6.Boolean
+int(False)     # 0
+int(True)      # 1
+
+float(False)   # 0.0
+float(True)    # 1.0
+
+str(False)     # 'False'
+
+list(False), tuple(False), set(False), dict(False) → Error because Boolean is not iterable.
+
+DICTIONARY CONVERSION
+
+List should contain key-value pairs:
+
+d = [
+    ("name", "teja"),
+    ("batch", "22"),
+    ("subject", "python")
+]
+
+dict(d)
+
+Output:
+
+{'name': 'teja', 'batch': '22', 'subject': 'python'}
