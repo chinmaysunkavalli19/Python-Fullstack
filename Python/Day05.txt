@@ -1,0 +1,170 @@
+. Operators:Operators are symbols/keywords used to perform operations on values or variables.
+
+Example:
+a = 10
+b = 20
+print(a + b)
+
+Types:
+
+1.Arithmetic
+2.Assignment
+3.Comparison
+4.Logical
+5.Bitwise
+6.Membership
+7.Identity
+8.Conditional/Ternary
+
+2. Arithmetic Operators:Used for mathematical calculations.
+
++   Addition
+-   Subtraction
+*   Multiplication
+/   Division
+//  Floor Division
+%   Modulus (Remainder)
+**  Exponent/Power
+
+Examples:
+
+10 + 5   # 15
+10 - 5   # 5
+10 * 5   # 50
+10 / 5   # 2.0
+10 // 3  # 3
+10 % 3   # 1
+10 ** 2  # 100
+
+/ → gives float
+// → quotient without fractional part
+% → remainder
+** → power
+
+3. Assignment Operators:Used to assign/update values.
+
+=    Assignment
++=   Add & Assign
+-=   Subtract & Assign
+*=   Multiply & Assign
+/=   Divide & Assign
+//=  Floor Divide & Assign
+%=   Modulus & Assign
+**=  Power & Assign
+
+Examples:
+x = 10
+x += 5    # x = 15
+x *= 2    # x = 30
+x -= 10   # x = 20
+
+4. Comparison Operators:Compare two values and return True or False.
+
+==   Equal
+!=   Not Equal
+>    Greater Than
+<    Less Than
+>=   Greater Than or Equal
+<=   Less Than or Equal
+
+Examples:
+
+x = 10
+y = 5
+x == y   # False
+x != y   # True
+x > y    # True
+x < y    # False
+x >= 10  # True
+y <= 5   # True
+
+5. Logical Operators:Used to combine conditions.
+
+and  → Both conditions must be True
+or   → At least one condition must be True
+not  → Reverses the result
+
+Examples:
+
+x = 10
+y = 20
+x > 5 and y < 30   # True
+x > 15 or y < 30   # True
+not(x > 5)         # False
+
+6. Membership Operators:Check whether a value exists in a sequence.
+
+in      → value exists
+not in  → value does not exist
+
+Examples:
+
+fruits = ["apple", "banana", "cherry"]
+"apple" in fruits       # True
+"grape" not in fruits   # True
+
+7. Identity Operators:Check whether two variables refer to the same object in memory.
+
+is       → Same object
+is not   → Different objects
+
+Examples:
+
+a = [1, 2, 3]
+b = a
+c = [1, 2, 3]
+a is b       # True
+a is c       # False
+a is not c   # True
+
+#== → compares values
+#is → compares object identity
+
+8. Bitwise Operators:Work on the binary representation of numbers.
+
+&    AND
+|    OR
+^    XOR
+~    NOT
+<<   Left Shift
+>>   Right Shift
+
+Examples:
+x = 5   # 0101
+y = 3   # 0011
+x & y    # 1
+x | y    # 7
+x ^ y    # 6
+~x       # -6
+x << 1   # 10
+x >> 1   # 2
+
+9. Conditional / Ternary Operator:Used to write a simple if-else in one line.
+
+Syntax:value_if_true if condition else value_if_false
+
+Example:
+age = 20
+result = "Eligible" if age >= 18 else "Not Eligible"
+print(result)
+
+Output:
+Eligible
+
+10. Operator Precedence
+Highest → Lowest:
+
+()
+**
++x, -x, ~x
+*, /, //, %
++, -
+<<, >>
+&
+^
+|
+==, !=, <, >, <=, >=, is, is not, in, not in
+not
+and
+or
+Conditional expression
