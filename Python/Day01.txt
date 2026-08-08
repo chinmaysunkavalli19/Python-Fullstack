@@ -1,0 +1,89 @@
+DAY 01 – INTRODUCTION TO PROGRAMMING & PYTHON
+
+1. Programming
+- Writing instructions to tell a computer what to do.
+- Program = set of instructions to perform a specific task.
+- Programming languages act as a bridge between humans and computers.
+
+2. Programming Language
+- Language used to communicate with computers and create software.
+- Examples: Python, Java, C, C++, JavaScript, C#, Go, Rust.
+
+3. Programming Paradigms
+- Procedural Programming
+- Object-Oriented Programming (OOP)
+
+4. Procedural Programming
+- Function-based
+- Step-by-step / top-to-bottom execution
+- Suitable for small applications
+- Less reusability and security
+- Easy to learn and write
+
+5. Object-Oriented Programming (OOP)
+- Organizes code using Classes and Objects.
+- Focuses on real-world entities.
+- Concepts: Encapsulation, Inheritance, Polymorphism, Abstraction.
+- More reusable, secure and suitable for large applications.
+
+6. Procedural vs OOP
+Procedural → Functions
+OOP → Objects
+
+Procedural → Function Based
+OOP → Class Based
+
+Procedural → Low Reusability
+OOP → High Reusability
+
+Procedural → Small Applications
+OOP → Large Applications
+
+7. What is Python?
+- High-level, interpreted, general-purpose programming language.
+- Focuses on simplicity, readability and productivity.
+
+8. Features of Python
+- Easy Syntax
+- High Level
+- Interpreted
+- Object-Oriented
+- Open Source
+- Portable
+- Dynamically Typed
+- Large Community Support
+- Huge Library Ecosystem
+
+9. Why Python?
+- Easy to learn
+- Less code
+- Faster development
+- Easy maintenance
+- Large ecosystem
+- Strong community
+
+10. History of Python
+- Creator: Guido van Rossum
+- Development Started: 1989
+- First Release: 1991
+- Python 3.0: 2008
+
+11. Applications of Python
+- Web Development
+- Data Science
+- Artificial Intelligence
+- Automation
+- Cyber Security
+- Game Development
+- Desktop Applications
+
+12. Memory Allocation
+Procedural:
+- Variables + Functions
+- Mainly Stack Memory
+- Less memory usage
+
+OOP:
+- Objects + Attributes
+- Objects use Heap Memory
+- More memory usage
