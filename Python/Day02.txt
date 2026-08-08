@@ -1,0 +1,107 @@
+        DAY 02 – PYTHON BASICS
+
+1. Python Program
+print("Hello World")
+
+print() → displays output on the console.
+
+2. Python Execution
+
+Source Code → Compilation → Bytecode (.pyc) → PVM → Machine Code → Output
+
+3. Execution Modes
+
+1.Interactive Mode
+
+Executes one statement at a time.
+Useful for learning, testing and debugging.
+
+2.Script Mode
+
+Program is written in a .py file.
+Run using:python example.py
+
+4. Tokens: smallest meaningful unit of a Python program.
+
+Types:
+
+1.Keywords
+2.Identifiers
+3.Literals
+4.Operators
+5.Delimiters/Punctuators
+
+5. Statement:A statement is an instruction executed by Python.
+
+x = 10
+print(x)
+
+6. Variables
+
+Variable = a name that refers to an object/value.
+
+age = 24
+name = "Raju"
+
+7. Multiple Assignment
+a, b, c = 10, 20, 30
+
+Same value:
+a = b = c = 100
+
+8. Reassignment
+a = 10
+a = 100
+
+9. Mutable Objects:Can be changed after creation.
+
+Examples:
+
+List
+Dictionary
+Set
+Bytearray
+numbers = [10, 20]
+numbers.append(30)
+
+
+10.Immutable Objects:Cannot be changed after creation.
+
+Examples:
+
+int
+float
+complex
+bool
+str
+tuple
+bytes
+frozenset
+
+11. Variable Naming Rules
+
+1.Must start with letter or _
+2.Can contain letters, digits and _
+3.Cannot start with a digit
+4.Keywords cannot be used
+5.Case-sensitive
+6.Spaces are not allowed
+7.Use meaningful names
+
+Correct:
+student_name = "Raju"
+total_marks = 95
+
+Wrong:
+2age = 24
+student-name = "Raju"
+my age = 20
+if = 10
+
+12. Keywords:Reserved words with special meaning in Python.
+
+Examples:
+
+if, else, for, while, break, continue,
+def, return, class, try, except,
+True, False, None
